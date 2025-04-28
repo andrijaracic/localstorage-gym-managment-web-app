@@ -72,9 +72,9 @@
 
 ```plaintext
 /
-├── index.html      // Main page (HTML)
-├── style.css       // Styling for table, form, and timer bar
-├── script.js       // Full CRUD logic, validation, timer, Local Storage operations
+├── projekat.html      // Main page (HTML)
+├── projekat.css       // Styling for table, form, and timer bar
+├── projekat.js       // Full CRUD logic, validation, timer, Local Storage operations
 ```
 
 ---
@@ -82,7 +82,7 @@
 ## 🚀 How to Run | Kako Pokrenuti
 
 1. Download or clone this repository.
-2. Open the `index.html` file in your web browser.
+2. Open the `projekat.html` file in your web browser.
 3. Start managing gym members easily!
 
 ---
@@ -98,7 +98,7 @@
 
 ## 🧑‍💻 Author
 
-Created by [Your Name] — 2025.
+Created by Andrija Racić — 2025.
 
 ---
 
