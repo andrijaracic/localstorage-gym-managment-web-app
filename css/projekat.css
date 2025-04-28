@@ -1,0 +1,102 @@
+.clan {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.forma-div{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: azure;
+    margin-top: 1em;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1.5em;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+    padding: 0;
+}
+
+input {
+    margin-left: 0.5em;
+}
+
+.validacija {
+    width: fit-content;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.validacija p , .validacija button{
+    margin: 1em;
+}
+
+.sakrij {
+    display: none;
+}
+
+.prikazi {
+    display: block;
+}
+
+table {
+    width: 70%;
+}
+
+table,th,td {
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 1em;
+    border-collapse: collapse;
+}
+
+#forma_update {
+    display: none;
+}
+
+
+
+.validacija-dugme-tajmer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tajmer {
+    margin: 0.2em;
+    height: 1.4em;
+    width: 1.4em;
+    font-size: 2em;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.tajmer p {
+    color: white;
+}
+
+button {
+    margin: 0.2em;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekat</title>
+    <link rel="stylesheet" href="../Andrija_Racic_IT40_22/css/projekat.css">
+    <script src="../Andrija_Racic_IT40_22/javascript/projekat.js"></script>
+</head>
+<body>
+
+    
+    <div class="validacija sakrij" id="validiranje">
+        <p class="sakrij" id="pogresna_validacija"></p>
+        <p>
+            Unesite tacan rezultat: <label for="validacija" id="validiranje_operacija"></label>
+            <input type="text" id="validacija">
+        </p>
+        <div class="validacija-dugme-tajmer">
+            <button>Potvrdi</button>
+            <div class="tajmer" id="timer">
+                <p id="timer-text"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="forma-div" id="forma_ubaci_clana_div">
+        <form action="">
+            <p class="sakrij" id="greska_prazan_input"></p>
+
+            <p>
+                <label for="id">ID </label> <p class="sakrij" id="greska_postoji_id"></p>
+                <input type="number" id="id">
+            </p>
+
+            <p>
+                <label for="ime_i_prezime">Ime i Prezime</label> <p class="sakrij" id="greska_ime_prezime"></p>
+                <input type="text" id="ime_i_prezime">
+            </p>
+
+            <p>
+                <label for="godiste">Godiste</label> <p class="sakrij" id="greska_godiste"></p>
+                <input type="number" id="godiste">
+            </p>
+
+            <p>
+                <label for="email">Email</label> <p class="sakrij" id="greska_email"></p>
+                <input type="text" id="email">
+            </p>
+
+            <p>Vrsta clana</p>
+
+            <p>
+                
+                <label for="">Regularni član</label>
+                <input type="radio" name="vrsta_clana" value="regularni" id="vrsta_clana" >
+                <label for="">Povlašćeni član</label>
+                <input type="radio" name="vrsta_clana" value="povlasceni" id="vrsta_clana" >
+            </p>
+
+            <button>Napravi novog clana</button>
+        </form>
+
+        
+    </div>
+
+    <div class="forma-div sakrij" id="forma_update_div">
+        <form action="">
+            <p class="sakrij" id="greska_prazan_input_update"></p>
+            <p>
+                <label for="id">ID </label>
+                <input type="number" id="id_update" readonly> 
+            </p>
+
+            <p>
+                <label for="ime_i_prezime">Ime i Prezime</label> <p class="sakrij" id="greska_ime_prezime_update"></p>
+                <input type="text" id="ime_i_prezime_update">
+            </p>
+
+            <p>
+                <label for="godiste">Godiste</label> <p class="sakrij" id="greska_godiste_update"></p>
+                <input type="number" id="godiste_update"> 
+            </p>
+
+            <p>
+                <label for="email">Email</label> <p class="sakrij" id="greska_email_update"></p>
+                <input type="text" id="email_update"> 
+            </p>
+
+            <p>Vrsta clana</p>
+
+            <p>
+                
+                <label for="">Regularni član</label>
+                <input type="radio" name="vrsta_clana" value="regularni" id="vrsta_clana" class="vrsta_clana">
+                <label for="">Povlašćeni član</label>
+                <input type="radio" name="vrsta_clana" value="povlasceni" id="vrsta_clana" class="vrsta_clana">
+            </p>
+
+            <button>Update</button>
+            <button>Cancel</button>
+            
+        </form>
+
+        
+    </div>
+
+    <table>
+        <th>ID</th>
+        <th>Ime i Prezime</th>
+        <th>Godiste</th>
+        <th>Email</th>
+        <th>Tip clana</th>
+        <th>Clanarina</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </table>
+
+</body>
+</html>
